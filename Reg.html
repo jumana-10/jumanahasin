@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>REGISTRATION FORM</title>
+        <style>
+            body{
+                background-color: rgb(247, 241, 244);
+                background-size: none;
+                background-position: center;
+            }
+        </style>
+    </head>
+    <body> 
+        <h1 align="center">Registration form</h1>
+        <form action="travelpage.html" method="GET" align="center"><br><br>
+        
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your name" required><br><br>
+           
+            <label for="email">Email</label>
+            <input type="text" id="username" name="email" placeholder="Enter your mail" required><br><br>
+           
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="phonenumber">Phone Number</label>
+            <input type="text" id="phone number" maxlength="10" required><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label><br><br>
+                
+            <label for="Languange">Language</label>
+            <select name="language" id="language" >
+                <option value="language">Language</option>
+                <option value="English">English</option>
+                <option value="Tamil">Tamil</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Malayalam">Malayalam</option>
+            </select><br><br>
+            
+            <label for="zipcode">Zipcode:</label>
+            <select name="Zipcode" id="zipcode">
+                <option value="1">Zipcode</option>
+                <option value="2">000 000</option>
+                <option value="3">000 111</option>
+                <option value="4">000 222</option>
+                <option value="5">000 444</option>
+            </select><br><br>
+            
+
+            <label for="about">About</label>
+            <textarea name="about" id="about" cols="30" rows="4">Write about yourself...</textarea><br><br>
+            
+            <label for="destination">From</label>
+            <input type="text" id="distination" required><br><br>
+            <label for="destination">To</label>
+            <input type="text" id="distination" required><br><br>
+
+            <label for="dateofjourney">Date of Journey</label>
+            <input type="date" id="dateofjourney" name="dateofjourney"><br><br>
+
+            <label for="dateofreturn">Date of Return</label>
+            <input type="date" id="dateofreturn"><br><br>
+
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        
+        </form>
+    </body>
+</html>
